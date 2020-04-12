@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mahdi Bank</title>
+    <!-- Bootstrap and mystyle.css-->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="CSS/mystyle.css" type="text/css">
+
+    <!-- JQuery and myscript.js-->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/myscript.js"></script>
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="jumbotron bg-dark">
+            <h2> Hello There!!, Welcome to Mahdi Bank.</h2>
+            <button class="btn btn-primary" id="open-account-button">Open Account</button>
+            <button class="btn btn-primary" id="withdraw-button">Withdraw</button>
+            <button class="btn btn-primary" id="deposit-button">Deposit</button>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <form id="open-account-form">
+                    <div class="account-inputs">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" class="form-control" id="first-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="second-name">Last Name</label>
+                            <input type="text" class="form-control" id="last-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="initial-deposit">Deposit</label>
+                            <input type="number" class="form-control" id="initial-deposit">
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" id="accounts-open">Open Account</button>
+                </form>
+            </div> <!-- Col -1-->
+
+            <div class="col-md-4">
+                <form id="withdraw-form">
+                    <div class="form-group">
+                        <label for="withdraw-amount"> Amount to withdraw </label>
+                        <input type="number" class="form-control" id="withdraw-amount">
+                    </div>
+                    <button class="btn btn-success">Withdraw</button>
+                </form>
+
+                <form id="deposit-form">
+                    <div class="form-group">
+                        <label for="deposit-amount"> Deposit Amount </label>
+                        <input type="number" class="form-control" id="deposit-amount">
+                    </div>
+                    <button class="btn btn-success">Deposit</button>
+                </form>
+            </div> <!-- Col- 2-->
+            <div class="col-md-4">
+                <div class="user-detail">
+                    <h5 id="user-full-name"></h5>
+                    <hr>
+                </div>
+            </div>
+        </div> <!-- Row-->
+    </div>
+</body>
+</html>

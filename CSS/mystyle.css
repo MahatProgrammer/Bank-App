@@ -1,0 +1,33 @@
+.jumbotron {
+    text-align: center;
+    color: #fff;
+}
+
+
+#open-account-form {
+    display: none;
+    border: 1px solid #0088cc;
+    padding: 1rem;
+}
+
+#withdraw-form {
+    display: none;
+    border: 1px solid rgb(27, 163, 27);
+    padding: 1rem;
+}
+
+#deposit-form {
+    display: none;
+    border: 1px solid rgb(27, 163, 27);
+    padding: 1rem;
+}
+
+.user-detail {
+    border: 1px solid #0088cc;
+    padding: 1rem;
+    display: none;
+}
+
+.user-detail .account-info {
+    font-weight: bold;
+}
