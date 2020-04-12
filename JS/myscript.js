@@ -62,6 +62,11 @@ $(document).ready(function() {
         //hide the form
         $(this).hide();
         $("button#open-account-button").hide();
+
+        //Show the account buttons
+        $(".jumbotron #withdraw-button").show();
+        $(".jumbotron #deposit-button").show();
+
         
         $("form#withdraw-form").submit(function(event) {
             event.preventDefault();

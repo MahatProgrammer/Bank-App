@@ -3,6 +3,13 @@
     color: #fff;
 }
 
+#account-buttons #withdraw-button{
+    display: none;
+}
+
+#account-buttons #deposit-button{
+    display: none;
+}
 
 #open-account-form {
     display: none;
